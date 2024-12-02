@@ -7,6 +7,9 @@
     opacity: 0.92;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
 header {
     position: fixed;
@@ -57,9 +60,17 @@ nav a {
 }
 
 main {
-    position: relative;
-    top: 69px;
+    position: relative; 
 }
+
+#mission-link {
+    content: '';
+    position: relative;
+    top: 0px;
+    width: 200px;
+    height: 71px;
+}
+
 
 .jumbotron {
     display: flex;
@@ -102,6 +113,16 @@ h3 {
 h4 {
     margin: 10px;
 }
+
+#featured-link {
+    content: '';
+    position: relative;
+    top: 0px;
+    width: 200px;
+    height: 100px;
+    z-index: -1;
+}
+
 
 .tea-month {
     margin: 0 auto;
