@@ -83,8 +83,10 @@ main {
     opacity: 1;
     align-self: center;
     text-align: center;
+}
 
-
+.site-title h4 {
+    font-weight: 300;
 }
 
 h2 {
@@ -110,6 +112,10 @@ h4 {
     text-align: center;
     width: 100%;
     margin: 0 auto;
+}
+
+.tea-month-title h4 {
+    font-weight: 300;
 }
 
 .month-container {
